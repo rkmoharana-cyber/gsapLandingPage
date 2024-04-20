@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+#main nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+#main nav .nav-part-2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#main h1 {
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 140px;
+    line-height: 100px;
+    font-weight: 400;
+    /* background-color: red; */
+}
+#main h1:nth-child(2) {
+    margin-top: 250px;
+}
+#main h1:nth-child(3) {
+    text-align: center;
+}
+#main h1:nth-child(4) {
+    text-align: center;
+    margin-left: 350px;
+}
+#main img {
+    width: 240px;
+    position: absolute;
+    top: 16%;
+    left: 35%;
+    z-index: -1;
+}
+#main .img-2 {
+    rotate: 8deg;
+} 
+#main .img-3 {
+    rotate: 18deg;
+}
+footer {
+    width: 98%;
+    margin: 80px 0;
+    padding-top: 30px;
+    padding-left: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer h3 {
+    width: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+footer .center {
+    width: 64%;
+    font-size: 14px;
+    /* text-align: center; */
+}
+footer .center p {
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
